@@ -1,0 +1,876 @@
+{
+  "sourceLanguage": "en",
+  "strings": {
+    "%lld Hz": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld Гц"
+          }
+        }
+      }
+    },
+    "1:1, sharpest": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1:1, максимально чётко"
+          }
+        }
+      }
+    },
+    "About Lumio": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "О Lumio"
+          }
+        }
+      }
+    },
+    "Accessibility access granted": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Универсальный доступ разрешён"
+          }
+        }
+      }
+    },
+    "Accessibility access is needed for media keys and moving windows": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Нужен Универсальный доступ — для медиаклавиш и переноса окон"
+          }
+        }
+      }
+    },
+    "Adjusts the monitor's backlight over DDC/CI.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Меняет подсветку монитора через DDC/CI."
+          }
+        }
+      }
+    },
+    "Allow…": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Разрешить…"
+          }
+        }
+      }
+    },
+    "Brighten all displays": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ярче на всех дисплеях"
+          }
+        }
+      }
+    },
+    "Brightness": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Яркость"
+          }
+        }
+      }
+    },
+    "Brightness keys adjust the display under the pointer": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Клавиши яркости управляют дисплеем под курсором"
+          }
+        }
+      }
+    },
+    "Built-in": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Встроенный"
+          }
+        }
+      }
+    },
+    "Built-in Display": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Встроенный дисплей"
+          }
+        }
+      }
+    },
+    "Checking…": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Проверка…"
+          }
+        }
+      }
+    },
+    "Connect an external display to adjust it here.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Подключите внешний монитор, чтобы настроить его здесь."
+          }
+        }
+      }
+    },
+    "Connection": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Подключение"
+          }
+        }
+      }
+    },
+    "Crisp text and simple control for every display on your Mac.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Чёткий текст и простое управление каждым дисплеем вашего Mac."
+          }
+        }
+      }
+    },
+    "DDC/CI": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "DDC/CI"
+          }
+        }
+      }
+    },
+    "Desktop looks like": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Рабочий стол выглядит как"
+          }
+        }
+      }
+    },
+    "Diagnostics": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Диагностика"
+          }
+        }
+      }
+    },
+    "Dim all displays": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Темнее на всех дисплеях"
+          }
+        }
+      }
+    },
+    "Display": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Дисплей"
+          }
+        }
+      }
+    },
+    "Display Disconnected": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Дисплей отключён"
+          }
+        }
+      }
+    },
+    "Display under the pointer": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Дисплей под курсором"
+          }
+        }
+      }
+    },
+    "Displays": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Дисплеи"
+          }
+        }
+      }
+    },
+    "External": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Внешний"
+          }
+        }
+      }
+    },
+    "External Display": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Внешний дисплей"
+          }
+        }
+      }
+    },
+    "General": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Основные"
+          }
+        }
+      }
+    },
+    "ID": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ID"
+          }
+        }
+      }
+    },
+    "Keyboard": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Клавиатура"
+          }
+        }
+      }
+    },
+    "Larger text": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Крупнее"
+          }
+        }
+      }
+    },
+    "Lumio": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lumio"
+          }
+        }
+      }
+    },
+    "Lumio remembers your choice for each display and restores it whenever the display is connected.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lumio запоминает выбор для каждого дисплея и восстанавливает его при подключении."
+          }
+        }
+      }
+    },
+    "Main display": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Основной дисплей"
+          }
+        }
+      }
+    },
+    "Mirror": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Повтор экрана"
+          }
+        }
+      }
+    },
+    "More space": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Больше места"
+          }
+        }
+      }
+    },
+    "Move pointer to next display": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Переместить курсор на следующий дисплей"
+          }
+        }
+      }
+    },
+    "Move window to next display": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Переместить окно на следующий дисплей"
+          }
+        }
+      }
+    },
+    "Move window to previous display": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Переместить окно на предыдущий дисплей"
+          }
+        }
+      }
+    },
+    "Not available": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Недоступно"
+          }
+        }
+      }
+    },
+    "Not needed": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Не нужно"
+          }
+        }
+      }
+    },
+    "Off": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Выкл."
+          }
+        }
+      }
+    },
+    "Open Lumio at login": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Открывать Lumio при входе в систему"
+          }
+        }
+      }
+    },
+    "Panel": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Матрица"
+          }
+        }
+      }
+    },
+    "Pixel density": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Плотность пикселей"
+          }
+        }
+      }
+    },
+    "Quit Lumio": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Завершить Lumio"
+          }
+        }
+      }
+    },
+    "Refresh Rate": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Частота обновления"
+          }
+        }
+      }
+    },
+    "Refresh rate": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Частота обновления"
+          }
+        }
+      }
+    },
+    "Rendered at": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Отрисовка"
+          }
+        }
+      }
+    },
+    "Rendering at 2× — HiDPI": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Отрисовка в 2× — HiDPI"
+          }
+        }
+      }
+    },
+    "Renders the desktop at 2× (HiDPI) and scales it to the panel, like a Retina display.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Рисует рабочий стол в 2× (HiDPI) и масштабирует под матрицу — как на Retina."
+          }
+        }
+      }
+    },
+    "Renders the desktop at 2× and scales it to the panel's native pixels, like a Retina display.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Рисует рабочий стол в 2× и масштабирует под родное разрешение матрицы — как на Retina."
+          }
+        }
+      }
+    },
+    "Resolution": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Разрешение"
+          }
+        }
+      }
+    },
+    "Resolution and refresh rate": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Разрешение и частота"
+          }
+        }
+      }
+    },
+    "Retina panel — macOS renders it at full sharpness.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Retina-матрица — macOS отрисовывает её с полной чёткостью."
+          }
+        }
+      }
+    },
+    "Settings…": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Настройки…"
+          }
+        }
+      }
+    },
+    "Sharp": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Чёткий"
+          }
+        }
+      }
+    },
+    "Sharp Text": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Чёткий текст"
+          }
+        }
+      }
+    },
+    "Sharp mode needs Lumio running, so it is best to keep this on.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Чёткий режим работает, пока запущен Lumio, поэтому лучше оставить это включённым."
+          }
+        }
+      }
+    },
+    "Sharp text": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Чёткий текст"
+          }
+        }
+      }
+    },
+    "Sharp text is on: the desktop renders at 2× and is scaled to the panel's native pixels.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Чёткий текст включён: рабочий стол рисуется в 2× и масштабируется под родное разрешение матрицы."
+          }
+        }
+      }
+    },
+    "Shortcuts": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Сочетания клавиш"
+          }
+        }
+      }
+    },
+    "Show indicator when brightness changes": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Показывать индикатор при смене яркости"
+          }
+        }
+      }
+    },
+    "Signal": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Сигнал"
+          }
+        }
+      }
+    },
+    "Software dimming — this monitor does not accept DDC/CI commands": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Программное затемнение — монитор не принимает команды DDC/CI"
+          }
+        }
+      }
+    },
+    "Speaker volume": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Громкость динамиков"
+          }
+        }
+      }
+    },
+    "Supported": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Поддерживается"
+          }
+        }
+      }
+    },
+    "Switching…": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Переключение…"
+          }
+        }
+      }
+    },
+    "Text looks soft on this display": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Текст на этом дисплее выглядит мыльным"
+          }
+        }
+      }
+    },
+    "The built-in display and speakers keep working as usual. Hold ⌥⇧ for finer steps.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Встроенный дисплей и динамики работают как обычно. Удерживайте ⌥⇧ для мелкого шага."
+          }
+        }
+      }
+    },
+    "The signal is not at the panel's native resolution, so the monitor upscales it and text looks blurry.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Сигнал не в родном разрешении матрицы: монитор растягивает картинку, и текст размывается."
+          }
+        }
+      }
+    },
+    "This display": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Этот дисплей"
+          }
+        }
+      }
+    },
+    "This display supports HiDPI but a 1× resolution is selected. Choose a HiDPI resolution.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Дисплей поддерживает HiDPI, но выбрано разрешение 1×. Выберите разрешение HiDPI."
+          }
+        }
+      }
+    },
+    "This monitor does not accept DDC/CI commands, so Lumio dims the image instead. The backlight stays the same.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Монитор не принимает команды DDC/CI, поэтому Lumio затемняет изображение. Подсветка при этом не меняется."
+          }
+        }
+      }
+    },
+    "Toggle Sharp mode": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Включить/выключить чёткий текст"
+          }
+        }
+      }
+    },
+    "Turn on Sharp text for new non‑Retina displays": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Включать чёткий текст для новых не-Retina дисплеев"
+          }
+        }
+      }
+    },
+    "Use as Main": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Сделать основным"
+          }
+        }
+      }
+    },
+    "Use as Main Display": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Сделать основным дисплеем"
+          }
+        }
+      }
+    },
+    "Verdict": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Вывод"
+          }
+        }
+      }
+    },
+    "Version %@": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Версия %@"
+          }
+        }
+      }
+    },
+    "Volume keys adjust the monitor's speakers": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Клавиши громкости управляют динамиками монитора"
+          }
+        }
+      }
+    },
+    "While Sharp text is on, HDR and variable refresh rate are not available on this display.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Пока включён чёткий текст, HDR и переменная частота обновления на этом дисплее недоступны."
+          }
+        }
+      }
+    },
+    "Windows": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Окна"
+          }
+        }
+      }
+    },
+    "macOS did not create the virtual display. Try again in a few seconds.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "macOS не создала виртуальный дисплей. Попробуйте ещё раз через несколько секунд."
+          }
+        }
+      }
+    },
+    "macOS refused to mirror the display. Try reconnecting the cable.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "macOS не включила повтор экрана. Попробуйте переподключить кабель."
+          }
+        }
+      }
+    },
+    "macOS renders this display at 1×, so text looks soft. Turn on Sharp text.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "macOS отрисовывает этот дисплей в 1×, поэтому текст мыльный. Включите чёткий текст."
+          }
+        }
+      }
+    },
+    "macOS renders this display in HiDPI. Nothing to fix.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "macOS отрисовывает этот дисплей в HiDPI. Ничего исправлять не нужно."
+          }
+        }
+      }
+    },
+    "native": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "родное"
+          }
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}
