@@ -30,6 +30,9 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
     func applicationDidFinishLaunching(_ notification: Notification) {
         model.start()
         handleTerminationSignals()
+        #if DEBUG
+        DebugSnapshots.runIfRequested(model: model)
+        #endif
     }
 
     func applicationWillTerminate(_ notification: Notification) {

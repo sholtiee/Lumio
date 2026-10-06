@@ -15,6 +15,9 @@ final class DisplayManager {
     @ObservationIgnored private var refreshTask: Task<Void, Never>?
     @ObservationIgnored private let engine: SharpModeEngine
     @ObservationIgnored private let profiles: ProfileStore
+    /// EDID size, captured while the panel is not mirrored: in a mirror set
+    /// CGDisplayScreenSize scales with the master's mode and reports nonsense.
+    @ObservationIgnored private var physicalSizes: [DisplayIdentity: CGSize] = [:]
 
     fileprivate static weak var current: DisplayManager?
 
@@ -82,11 +85,18 @@ final class DisplayManager {
             current: ModeService.current(of: desktopID).map(DisplayMode.init),
             output: ModeService.current(of: id).map(DisplayMode.init),
             nativePixels: native,
-            physicalSizeMM: CGDisplayScreenSize(id),
+            physicalSizeMM: physicalSize(of: id, identity: identity),
             hasUsefulHiDPI: ModeService.hasUsefulHiDPI(id, native: native),
             sharpVirtualID: sharpID,
             mirrorsDisplay: mirrorMaster == kCGNullDirectDisplay || mirrorMaster == sharpID ? nil : mirrorMaster
         )
+    }
+
+    private func physicalSize(of id: CGDirectDisplayID, identity: DisplayIdentity) -> CGSize {
+        if CGDisplayIsInMirrorSet(id) == 0 || physicalSizes[identity] == nil {
+            physicalSizes[identity] = CGDisplayScreenSize(id)
+        }
+        return physicalSizes[identity] ?? .zero
     }
 
     private func name(for id: CGDirectDisplayID, desktopID: CGDirectDisplayID, identity: DisplayIdentity, isBuiltin: Bool) -> String {

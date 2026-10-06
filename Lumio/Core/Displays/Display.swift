@@ -23,7 +23,7 @@ struct DisplayMode: Hashable, Identifiable, Sendable {
 
     var isHiDPI: Bool { pixels.width > size.width }
     var id: String { "\(size.width)x\(size.height)/\(pixels.width)@\(Int(refreshRate.rounded()))" }
-    var refreshLabel: String { refreshRate > 0 ? "\(Int(refreshRate.rounded())) Hz" : "" }
+    var refreshLabel: String { refreshRate > 0 ? String(localized: "\(Int(refreshRate.rounded())) Hz") : "" }
 }
 
 /// A physical display as the user thinks of it. When Sharp mode is on, the

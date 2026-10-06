@@ -11,25 +11,29 @@ struct SettingsView: View {
     }
 
     @Environment(AppModel.self) private var model
-    @State private var selection: Pane? = .general
+    @State private var selection: Pane?
+
+    init(initial: Pane = .general) {
+        _selection = State(initialValue: initial)
+    }
 
     var body: some View {
         NavigationSplitView {
             List(selection: $selection) {
-                SidebarRow(title: "General", symbol: "gearshape.fill", color: .gray)
+                SidebarRow(title: Text("General"), symbol: "gearshape.fill", color: .gray)
                     .tag(Pane.general)
 
                 Section("Displays") {
                     ForEach(model.displays.displays) { display in
-                        SidebarRow(title: LocalizedStringKey(display.name), symbol: display.symbolName, color: display.isSharp ? .accentColor : .blue)
+                        SidebarRow(title: Text(verbatim: display.name), symbol: display.symbolName, color: display.isSharp ? .accentColor : .blue)
                             .tag(Pane.display(display.identity))
                     }
                 }
 
                 Section {
-                    SidebarRow(title: "Shortcuts", symbol: "command", color: .purple)
+                    SidebarRow(title: Text("Shortcuts"), symbol: "command", color: .purple)
                         .tag(Pane.shortcuts)
-                    SidebarRow(title: "About Lumio", symbol: "info", color: .gray)
+                    SidebarRow(title: Text("About Lumio"), symbol: "info", color: .gray)
                         .tag(Pane.about)
                 }
             }
@@ -64,13 +68,13 @@ struct SettingsView: View {
 
 /// Sidebar item with a coloured rounded-square icon, as in System Settings.
 private struct SidebarRow: View {
-    let title: LocalizedStringKey
+    let title: Text
     let symbol: String
     let color: Color
 
     var body: some View {
         Label {
-            Text(title).lineLimit(1)
+            title.lineLimit(1)
         } icon: {
             Image(systemName: symbol)
                 .font(.system(size: 11, weight: .semibold))
